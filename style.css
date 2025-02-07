@@ -1,0 +1,110 @@
+/* Reset e configurações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Container principal */
+.container {
+    margin: 88px auto;
+    width: 1120px;
+}
+
+/* Cabeçalho */
+header p {
+    font-weight: bold;
+    color: #E1624F;
+    font-size: 22px;
+}
+
+/* Informações gerais */
+.info-section {
+    margin-bottom: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+.info-section img {
+    height: 660px;
+    margin: 40px 0;
+}
+
+/* Conteúdo principal */
+.main-section {
+    margin-top: 40px;
+}
+
+.title-section {
+    margin: 64px 0;
+}
+
+.title-section h3 {
+    font-size: 22px;
+    color: #E1624F;
+    font-weight: bold;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+/* Conteúdo detalhado */
+.content-section div {
+    margin-top: 5px;
+}
+
+.list-item h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content-image {
+    border-radius: 28px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.last-item {
+    margin-bottom: 40px;
+}
+
+/* Cores de destaque */
+.text-blue {
+    color: blue;
+    font-weight: bold;
+}
+
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.text-orange {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Frase final */
+.final-quote {
+    height: 74px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Lista sem estilo padrão após imagens */
+img + ul {
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+
+.content-container {
+    margin-bottom: 40px;
+}
+.final{
+    margin-top: 30px;
+    text-align: center;
+}
